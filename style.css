@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #121216;
+    color: #fff;
+    user-select: none;
+    font-family: system-ui;
+    position: relative;
+    /*scroll-behavior: smooth;*/
+}
+
+.title {
+    text-align: center;
+    line-height: 2;
+}
+
+.desc {
+    text-align: center;
+    line-height: 2;
+}
+
+.start {
+    outline: none;
+    border: 1px solid #0ff;
+    background-color: transparent;
+    color: #0ff;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#pi {
+    user-select: all;
+    margin: 5px;
+    padding: 10px;
+    color: #0ff;
+    border: 1px solid #0ff;
+    border-radius: 10px;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    transition: all 0.25s ease-in-out;
+}
+
+footer {
+    text-align: center;
+    color: #0ff;
+    line-height: 3;
+}
